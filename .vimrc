@@ -21,6 +21,7 @@ highlight clear Pmenu
 highlight clear PmenuSel
 highlight clear PmenuSbar
 highlight clear PmenuThumb
+highlight clear Directory
 
 highlight LineNr       ctermfg=249
 highlight CursorLineNr ctermfg=16  ctermbg=36
@@ -33,8 +34,9 @@ highlight SpecialKey   ctermfg=245
 highlight NonText      ctermfg=245
 highlight Pmenu        ctermfg=16  ctermbg=135
 highlight PmenuSel     ctermfg=16  ctermbg=231
-highlight PmenuSbar                ctermbg=240
+highlight PmenuSbar                ctermbg=241
 highlight PmenuThumb               ctermbg=249
+highlight Directory    ctermfg=135
 
 highlight User1        ctermfg=248 ctermbg=NONE
 highlight User2        ctermfg=232 ctermbg=210
