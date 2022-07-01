@@ -15,7 +15,8 @@ let g:colors_name = "luna"
 
 hi Normal     ctermfg=254
 hi Comment    ctermfg=134
-hi Constant   ctermfg=209
+"hi Constant   ctermfg=209
+hi Constant   ctermfg=249
 hi Special    ctermfg=209
 hi Identifier ctermfg=104
 hi Statement  ctermfg=212
@@ -27,6 +28,7 @@ hi Tag        ctermfg=36
 hi Error      ctermfg=16  ctermbg=196
 hi SpellBad   ctermfg=16  ctermbg=196
 hi Todo       ctermfg=16  ctermbg=214
+hi Underlined ctermfg=214
 
 hi! link MoreMsg Comment
 hi! link ErrorMsg Visual
