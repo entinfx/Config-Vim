@@ -1,8 +1,6 @@
-" 256-color terminal only, no GUI, no bold or italic characters.
-" Recommended background: #13121A, cursor: #64658F. No ANSI colors used.
+" 256-color mode only, no GUI, no bold characters.
 "
-" Created by @entinfx (github.com/entinfx)
-" June 28 2022
+" @entinfx (github.com/entinfx)
 
 " Colors
 colorscheme luna
@@ -23,26 +21,26 @@ highlight clear PmenuSbar
 highlight clear PmenuThumb
 highlight clear Directory
 
-highlight LineNr       ctermfg=249
-highlight CursorLineNr ctermfg=16  ctermbg=36
+highlight LineNr       cterm=NONE  ctermfg=249
+highlight CursorLineNr cterm=NONE  ctermfg=16  ctermbg=36
 highlight ColorColumn              ctermbg=235
-highlight StatusLine   ctermfg=16  ctermbg=135
-highlight WildMenu     ctermfg=16  ctermbg=231
-highlight VertSplit    ctermfg=16  ctermbg=240
-highlight Visual       ctermfg=16  ctermbg=135
-highlight SpecialKey   ctermfg=245
-highlight NonText      ctermfg=245
-highlight Pmenu        ctermfg=16  ctermbg=135
-highlight PmenuSel     ctermfg=16  ctermbg=231
-highlight PmenuSbar                ctermbg=241
-highlight PmenuThumb               ctermbg=249
-highlight Directory    ctermfg=135
+highlight StatusLine   cterm=NONE  ctermfg=16  ctermbg=135
+highlight WildMenu     cterm=NONE  ctermfg=16  ctermbg=231
+highlight VertSplit    cterm=NONE  ctermfg=16  ctermbg=240
+highlight Visual       cterm=NONE  ctermfg=16  ctermbg=135
+highlight SpecialKey   cterm=NONE  ctermfg=245
+highlight NonText      cterm=NONE  ctermfg=245
+highlight Pmenu        cterm=NONE  ctermfg=16  ctermbg=135
+highlight PmenuSel     cterm=NONE  ctermfg=16  ctermbg=231
+highlight PmenuSbar    cterm=NONE              ctermbg=241
+highlight PmenuThumb   cterm=NONE              ctermbg=249
+highlight Directory    cterm=NONE  ctermfg=135
 
-highlight User1        ctermfg=248 ctermbg=NONE
-highlight User2        ctermfg=232 ctermbg=210
-highlight User3        ctermfg=36  ctermbg=NONE
-highlight User4        ctermfg=135 ctermbg=NONE
-highlight User5        ctermfg=210 ctermbg=NONE
+highlight User1        cterm=NONE  ctermfg=248 ctermbg=NONE
+highlight User2        cterm=NONE  ctermfg=232 ctermbg=210
+highlight User3        cterm=NONE  ctermfg=36  ctermbg=NONE
+highlight User4        cterm=NONE  ctermfg=135 ctermbg=NONE
+highlight User5        cterm=NONE  ctermfg=210 ctermbg=NONE
 
 " Tabs
 set expandtab     " insert space characters when <tab> is pressed
@@ -97,3 +95,4 @@ let g:netrw_localcopydircmd='cp -r'
 
 nnoremap <leader>d :Lexplore<CR>
 nnoremap <leader>f :Explore<CR>
+

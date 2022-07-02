@@ -1,8 +1,6 @@
-" 256-color terminal only, no GUI, no bold or italic characters.
-" Recommended background: #13121A, cursor: #64658F. No ANSI colors used.
+" 256-color mode only, no GUI, no bold characters.
 "
-" Created by @entinfx (github.com/entinfx)
-" June 28 2022
+" @entinfx (github.com/entinfx)
 
 set background=dark
 hi clear
@@ -13,22 +11,21 @@ endif
 
 let g:colors_name = "luna"
 
-hi Normal     ctermfg=254
-hi Comment    ctermfg=134
-"hi Constant   ctermfg=209
-hi Constant   ctermfg=249
-hi Special    ctermfg=209
-hi Identifier ctermfg=104
-hi Statement  ctermfg=212
-hi PreProc    ctermfg=209
-hi Type       ctermfg=104
-hi Search     ctermfg=16  ctermbg=231
-hi MatchParen ctermfg=16  ctermbg=214
-hi Tag        ctermfg=36
-hi Error      ctermfg=16  ctermbg=196
-hi SpellBad   ctermfg=16  ctermbg=196
-hi Todo       ctermfg=16  ctermbg=214
-hi Underlined ctermfg=214
+hi Normal     cterm=NONE  ctermfg=254
+hi Comment    cterm=NONE  ctermfg=134
+hi Constant   cterm=NONE  ctermfg=249
+hi Special    cterm=NONE  ctermfg=209
+hi Identifier cterm=NONE  ctermfg=104
+hi Statement  cterm=NONE  ctermfg=212
+hi PreProc    cterm=NONE  ctermfg=209
+hi Type       cterm=NONE  ctermfg=104
+hi Search     cterm=NONE  ctermfg=16  ctermbg=231
+hi MatchParen cterm=NONE  ctermfg=16  ctermbg=214
+hi Tag        cterm=NONE  ctermfg=36
+hi Error      cterm=NONE  ctermfg=16  ctermbg=196
+hi SpellBad   cterm=NONE  ctermfg=16  ctermbg=196
+hi Todo       cterm=NONE  ctermfg=16  ctermbg=214
+hi Underlined cterm=NONE  ctermfg=214
 
 hi! link MoreMsg Comment
 hi! link ErrorMsg Visual
