@@ -22,6 +22,7 @@ hi Type       cterm=NONE  ctermfg=104
 hi Search     cterm=NONE  ctermfg=16  ctermbg=231
 hi MatchParen cterm=NONE  ctermfg=16  ctermbg=214
 hi Tag        cterm=NONE  ctermfg=36
+hi Folded     cterm=NONE  ctermfg=36  ctermbg=NONE
 hi Error      cterm=NONE  ctermfg=16  ctermbg=196
 hi SpellBad   cterm=NONE  ctermfg=16  ctermbg=196
 hi Todo       cterm=NONE  ctermfg=16  ctermbg=214
