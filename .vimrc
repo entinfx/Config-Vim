@@ -65,10 +65,10 @@ noremap <F5> :set list!<CR>
 set splitbelow splitright
 
 " Searching
-set nohlsearch
 set smartcase
 set ignorecase
 set incsearch
+noremap <F4> :set hlsearch! hlsearch?<CR>
 
 " Status Line
 set laststatus=2
