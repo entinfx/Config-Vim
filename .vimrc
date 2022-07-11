@@ -37,7 +37,7 @@ highlight PmenuThumb   cterm=NONE              ctermbg=249
 highlight Directory    cterm=NONE  ctermfg=135
 
 highlight User1        cterm=NONE  ctermfg=248 ctermbg=NONE
-highlight User2        cterm=NONE  ctermfg=232 ctermbg=210
+highlight User2        cterm=NONE  ctermfg=232 ctermbg=135
 highlight User3        cterm=NONE  ctermfg=36  ctermbg=NONE
 highlight User4        cterm=NONE  ctermfg=135 ctermbg=NONE
 highlight User5        cterm=NONE  ctermfg=210 ctermbg=NONE

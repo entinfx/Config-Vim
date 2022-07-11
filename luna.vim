@@ -13,11 +13,11 @@ let g:colors_name = "luna"
 
 hi Normal     cterm=NONE  ctermfg=254
 hi Comment    cterm=NONE  ctermfg=134
-hi Constant   cterm=NONE  ctermfg=249
+hi Constant   cterm=NONE  ctermfg=208
 hi Special    cterm=NONE  ctermfg=209
 hi Identifier cterm=NONE  ctermfg=104
-hi Statement  cterm=NONE  ctermfg=212
-hi PreProc    cterm=NONE  ctermfg=209
+hi Statement  cterm=NONE  ctermfg=147
+hi PreProc    cterm=NONE  ctermfg=212
 hi Type       cterm=NONE  ctermfg=104
 hi Search     cterm=NONE  ctermfg=16  ctermbg=231
 hi MatchParen cterm=NONE  ctermfg=16  ctermbg=214
