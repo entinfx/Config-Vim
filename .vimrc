@@ -37,17 +37,17 @@ highlight PmenuThumb   cterm=NONE              ctermbg=249
 highlight Directory    cterm=NONE  ctermfg=135
 
 highlight User1        cterm=NONE  ctermfg=248 ctermbg=NONE
-highlight User2        cterm=NONE  ctermfg=232 ctermbg=135
+highlight User2        cterm=NONE  ctermfg=232 ctermbg=36
 highlight User3        cterm=NONE  ctermfg=36  ctermbg=NONE
 highlight User4        cterm=NONE  ctermfg=135 ctermbg=NONE
 highlight User5        cterm=NONE  ctermfg=210 ctermbg=NONE
 
 " Tabs
 set expandtab     " insert space characters when <tab> is pressed
-set tabstop=4     " width of '\t'
-set softtabstop=4 " number of spaces to insert when pressing <tab>
+set softtabstop=4 " number of spaces to insert when <tab> is pressed
+set tabstop=4     " width of tab characters
 set shiftwidth=4  " width of level of indentation
-set smartindent
+" set smartindent
 set autoindent
 
 " Lines
@@ -84,6 +84,7 @@ set statusline+=%1*/%*        " '/'
 set statusline+=%4*%L%*       " total lines
 set statusline+=%1*\ :\ %*    " ' : '
 set statusline+=%5*%v%*       " current column
+set statusline+=%0*           " reset color
 
 " Netrw
 let g:netrw_banner=0
